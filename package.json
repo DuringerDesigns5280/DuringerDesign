@@ -1,0 +1,25 @@
+{
+  "name": "duringerdesigns-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Taylor4980/DuringerDesign.git"
+  },
+  "author": "Taylor Sherwood",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Taylor4980/DuringerDesign/issues"
+  },
+  "homepage": "https://github.com/Taylor4980/DuringerDesign#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "jquery": "^3.3.1",
+    "mamp-cli": "0.0.10",
+    "popper": "^1.0.1"
+  }
+}
