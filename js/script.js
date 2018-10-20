@@ -61,23 +61,5 @@ $(function () {
 	});
 
 	// Contact form
-	$('#contact form').submit(function(e) {
-		e.preventDefault();
-		var form = $('#contact form');
-		var formData = form.serialize();
-		$.ajax({
-			type: 'POST',
-			url: form.attr('action'),
-			data: formData,
-			success: function( data ) {
-				if( data.success ) {
-					form.before('<div class="alert alert-success alert-dismissible fade show" role="alert">' + data.message + '<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></div>');
-					form.find('input, textarea').val('');
-				} else {
-					form.before('<div class="alert alert-danger alert-dismissible fade show" role="alert">' + data.message + '<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></div>');
-				}
-				$('.alert').alert();
-			}
-		});
-	});
+
 });

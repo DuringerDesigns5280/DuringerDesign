@@ -1,7 +1,7 @@
 <?php
 
 // Place reciepents and email sender here
-$recipient = "youremail@here.com";
+$recipient = "taylor@duringerdesigns.com";
 $sender = "noreply@ipgroups.net";
 
 $errors = array();
