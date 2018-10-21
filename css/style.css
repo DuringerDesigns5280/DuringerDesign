@@ -168,7 +168,7 @@ p {
 .blog-bg .name-color,
 .social i,
 .g-button-2 {
-	color: #eab34c;
+	color: #d8a22f;
 }
 
 .service-right .service-detail h3,
@@ -265,7 +265,7 @@ p {
 ================================*/
 .jumbotron {
 	padding: 120px 0;
-	background-image: url(../images/NEW435ColfaxSUNSET-2.jpg);
+	background-image: url(../images/NEW435ColfaxSUNSET-2-min.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	margin-bottom: 0px;
@@ -375,6 +375,13 @@ p {
 	font-size: 18px;
 	letter-spacing: 1px;
 	color: #ffffff;
+}
+.text left{
+	padding-bottom: 3px;
+}
+
+#sincer{
+	padding-top: 3vh;
 }
 
 .about-skil h3 {
