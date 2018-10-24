@@ -1,7 +1,4 @@
 @media(max-width: 991.98px) {
-	.jumbotron {
-		padding: 60px 0;
-	}
 
 	/** About **/
     .about .about-me,
@@ -78,9 +75,7 @@
 }
 
 @media(min-width: 768px) {
-	.jumbotron {
-		padding: 60px 0;
-	}
+	
 	.blog-thumbnail {
 		position: relative;
 		overflow: hidden;
@@ -96,7 +91,7 @@
 
 @media(max-width: 767.98px) {
 	.jumbotron {
-		padding: 60px 0;
+	 
 	}
 	section {
 		padding: 60px 0;
@@ -143,9 +138,11 @@
 	}
 }
 
-@media(max-width: 575.98px) {
-	.jumbotron {
-		padding: 60px 0;
+@media(max-width: 576.98px) {
+	.jumbotron{
+		height: 700px;
+		width: 376px;
+
 	}
 	/*Typography */
 	h2 {
@@ -245,9 +242,7 @@
 }
 
 @media(max-width: 395.98px) {
-	.jumbotron {
-		padding: 60px 0;
-	}
+	
 	.jumbotron h2 {
     	font-size: 26px;
 	}
